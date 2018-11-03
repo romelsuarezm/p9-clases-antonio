@@ -9,6 +9,7 @@ git commit -m "cambiar por un comentario descriptivo"
 #Cambiar la url ... por la suya
 git remote add origin https://github.com/BigDataCTIC/...
 
+git push -u origin master
 
 #Fin
 
