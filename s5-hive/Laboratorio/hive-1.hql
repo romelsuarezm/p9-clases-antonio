@@ -23,14 +23,14 @@ LOCATION '/landing/viajes';
 
 //Tablas externas: si borras la tabla NO se borra la data
 use ctic;
-create external table ctic.mundo(
+create external if not exists table ctic.trip(
 inicio string,
 fin string,
 total int
 )
-COMMENT 'Tabla mundo del noveno grupo CTIC'
+COMMENT 'Tabla trip del noveno grupo CTIC'
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 STORED AS TEXTFILE
-LOCATION '/landing/viajes';
+LOCATION '/landing/trip';
