@@ -23,7 +23,7 @@ LOCATION '/landing/viajes';
 
 //Tablas externas: si borras la tabla NO se borra la data
 use ctic;
-create external if not exists table ctic.trip(
+create external table if not exists ctic.trip(
 inicio string,
 fin string,
 total int
