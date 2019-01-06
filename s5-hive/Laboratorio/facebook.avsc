@@ -1,0 +1,23 @@
+{
+  "type" : "record",
+  "name" : "facebook_schema",
+  "namespace" : "com.miguno.avro",
+  "fields" : [ {
+    "name" : "id",
+    "type" : "string",
+    "doc"  : "id en facebook"
+  }, {
+    "name" : "name",
+    "type" : "string",
+    "doc"  : "Nombre en facebook"
+  }, {
+    "name" : "birthday",
+    "type" : "string",
+    "doc"  : "Cumpleaños"
+  } , {
+    "name" : "email",
+    "type" : "string",
+    "doc"  : "Correo en facebook"
+  } ],
+  "doc:" : "Esta es la data recopilada de facebook"
+}
