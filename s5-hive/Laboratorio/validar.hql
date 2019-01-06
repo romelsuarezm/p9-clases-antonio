@@ -1,0 +1,2 @@
+use ctic;
+show databases;

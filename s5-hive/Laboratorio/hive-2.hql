@@ -240,3 +240,6 @@ CREATE external table ctic.vuelosparquet LIKE PARQUET `/landing/vuelosparquet2/p
 //BUCKETING
 
 
+//Lanzar Código archivos hql Jupyter
+beeline -u jdbc:hive2://localhost:10000/ctic -e "select * from ctic.facebook;"
+beeline -u jdbc:hive2://localhost:10000/ctic -f "validar.hql"
